@@ -1,0 +1,15 @@
+
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Imieni/agpaytech"
+    }
+  ],
+  "require": {
+    "symfony/yaml": "2.6.4",
+    "monolog/monolog": "1.12.0",
+    "symfony/var-dumper": "^3.0",
+    "php": ">=7.4"
+  }
+}
