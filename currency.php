@@ -6,6 +6,7 @@ use Agpay\Currency;
 
 
 $currencycsv = new Currency();
+
 if (isset($_POST["submit-currency"] ) 	) {
    $stmt = $currencycsv->readCSVFile();
 
