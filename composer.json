@@ -1,5 +1,14 @@
 
 {
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Odijie Imieni",
+            "email": "imieniodijie@gmail.com",
+            "role": "Developer"
+        }
+    ],
+
   "repositories": [
     {
       "type": "vcs",
@@ -7,9 +16,19 @@
     }
   ],
   "require": {
-    "symfony/yaml": "2.6.4",
-    "monolog/monolog": "1.12.0",
-    "symfony/var-dumper": "^3.0",
-    "php": ">=7.4"
-  }
+        "php": "^7.2.5 || ^8.0"
+       
+    },
+    
+    "config": {
+        "platform": {
+            "php": "7.2.5"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Agpay\\": "src/"
+        }
+    }
+
 }

@@ -1,4 +1,9 @@
 <?php
+namespace Agpay;
+
+use PDO;
+require "./vendor/autoload.php";
+
 class Database {
 	private $db_user = "root";
 	private $db_host = "localhost";

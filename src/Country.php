@@ -2,8 +2,13 @@
 	/**
 	 * Class for country csv
 	 */
+	namespace Agpay;
 
-	require_once 'auth.php';
+	require "./vendor/autoload.php";
+
+	use PDO;
+	use Agpay\Auth;
+	//require_once 'auth.php';
 
 	class Country extends Auth{
 

@@ -1,6 +1,9 @@
 <?php
 
-require_once('classes/currency.php');
+require "vendor/autoload.php";
+
+use Agpay\Currency;
+
 
 $currencycsv = new Currency();
 if (isset($_POST["submit-currency"] ) 	) {

@@ -1,5 +1,9 @@
 <?php
-require_once('classes/country.php');
+namespace Agpay;
+require "vendor/autoload.php";
+
+use PDO;
+use Agpay\Country;
 
 
 $countrycsv = new Country();

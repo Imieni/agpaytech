@@ -2,8 +2,12 @@
 	/**
 	 * Class for currency csv
 	 */
+	namespace Agpay;
 
-	require_once 'auth.php';
+	require "./vendor/autoload.php";
+
+	use PDO;
+	use Agpay\Auth;
 
 	class Currency extends Auth{
 

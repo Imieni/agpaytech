@@ -1,5 +1,11 @@
 <?php
-require_once ('connect.php');
+namespace Agpay;
+
+require "./vendor/autoload.php";
+
+use Agpay\Database;
+use PDO;
+
 
 	/**
 	* Parent Class
